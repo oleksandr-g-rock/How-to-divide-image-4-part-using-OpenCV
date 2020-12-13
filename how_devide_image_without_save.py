@@ -31,11 +31,11 @@ l2 = img[:, width_cutoff:]
 #rotate image to 90 COUNTERCLOCKWISE
 l1 = cv2.rotate(l1, cv2.ROTATE_90_COUNTERCLOCKWISE)
 #save
-cv2.imwrite("one_horisont_1.jpg", l1)
+cv2.imwrite("left_2.jpg", l2)
 #rotate image to 90 COUNTERCLOCKWISE
 l2 = cv2.rotate(l2, cv2.ROTATE_90_COUNTERCLOCKWISE)
 #save
-cv2.imwrite("one_horisont_2.jpg", l2)
+cv2.imwrite("left_1.jpg", l1)
 
 ##########################################
 # At first Horizontal devide right1 image#
@@ -53,9 +53,9 @@ r2 = img[:, width_cutoff:]
 #rotate image to 90 COUNTERCLOCKWISE
 r1 = cv2.rotate(r1, cv2.ROTATE_90_COUNTERCLOCKWISE)
 #save
-cv2.imwrite("second_vhorisont_1.jpg", r1)
+cv2.imwrite("right_4.jpg", r2)
 #rotate image to 90 COUNTERCLOCKWISE
 r2 = cv2.rotate(r2, cv2.ROTATE_90_COUNTERCLOCKWISE)
 #save
-cv2.imwrite("second_horisont_2.jpg", r2)
+cv2.imwrite("right_3.jpg", r1)
 
