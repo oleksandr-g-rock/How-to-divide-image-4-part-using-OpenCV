@@ -1,7 +1,7 @@
 import cv2   
 
 # load image
-img = cv2.imread('image_test.jpg')
+img = cv2.imread('divide_image_4_parts.png')
 
 ##########################################
 # At first vertical devide image         #
