@@ -25,8 +25,8 @@ height = img.shape[0]
 width = img.shape[1]
 # Cut the image in half
 width_cutoff = width // 2
-l1 = img[:, :width_cutoff]
-l2 = img[:, width_cutoff:]
+l2 = img[:, :width_cutoff]
+l1 = img[:, width_cutoff:]
 # finish vertical devide image
 #rotate image to 90 COUNTERCLOCKWISE
 l1 = cv2.rotate(l1, cv2.ROTATE_90_COUNTERCLOCKWISE)
@@ -47,8 +47,8 @@ height = img.shape[0]
 width = img.shape[1]
 # Cut the image in half
 width_cutoff = width // 2
-r1 = img[:, :width_cutoff]
-r2 = img[:, width_cutoff:]
+r2 = img[:, :width_cutoff]
+r1 = img[:, width_cutoff:]
 # finish vertical devide image
 #rotate image to 90 COUNTERCLOCKWISE
 r1 = cv2.rotate(r1, cv2.ROTATE_90_COUNTERCLOCKWISE)
